@@ -9,13 +9,13 @@ Extracts text from document images (converted PDFs, photos, scans, etc.) using t
 Install using pipx:
 
 ```bash
-pipx install git+https://github.com/seuuser/ocr.git
+pipx install git+https://github.com/alobato/mac-ocr.git
 ```
 
 Or install using pip:
 
 ```bash
-pip install git+https://github.com/seuuser/ocr.git
+pip install git+https://github.com/alobato/mac-ocr.git
 ```
 
 ## Requirements
