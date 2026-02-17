@@ -27,22 +27,22 @@ pip install git+https://github.com/alobato/mac-ocr.git
 
 ```bash
 # Extract text from an image
-mac-ocr documento.jpg
+mac-ocr document.jpg
 
 # Save to text file
-mac-ocr documento.jpg --output resultado.txt
+mac-ocr document.jpg --output result.txt
 
 # JSON output with details
-mac-ocr documento.jpg --format json
+mac-ocr document.jpg --format json
 
 # Multiple files
-mac-ocr *.jpg --output-dir resultados/
+mac-ocr *.jpg --output-dir results/
 
 # Adjust minimum confidence and languages
-mac-ocr documento.jpg --min-confidence 0.5 --languages pt-BR,en-US
+mac-ocr document.jpg --min-confidence 0.5 --languages pt-BR,en-US
 
 # Fast mode (less accurate)
-mac-ocr documento.jpg --level fast
+mac-ocr document.jpg --level fast
 ```
 
 ## Options
